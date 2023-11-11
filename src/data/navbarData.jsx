@@ -1,10 +1,15 @@
-import * as FaIcons from 'react-icons'
+import * as FaIcons from 'react-icons/fa6'
 
 const navbarData = [
     {
+        text: "Home",
+        icon: <FaIcons.FaHouse />,
+        path: '/'
+    },
+    {
         text: "Gallery",
         icon: <FaIcons.FaUsers />,
-        path: '/'
+        path: '/gallery'
     },
     {
         text: "Contact",
