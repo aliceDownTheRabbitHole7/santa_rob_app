@@ -35,7 +35,9 @@ const Navbar = () => {
               <AiIcons.AiOutlineClose />
             </Link>
           </li>
-          {navbarMap}
+          <div className="nav-map-container">
+            {navbarMap}
+          </div>
         </ul>
       </nav>
     </>
